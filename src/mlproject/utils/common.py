@@ -10,29 +10,28 @@ from pathlib import Path
 from mlproject import logger
 
 @ensure_annotations
-def read_yaml_file(file_path:Path)->ConfigBox:
-    """
-    Reads a YAML file and returns its contents as a Python object.
+def read_yaml_file(path_to_yaml: Path) -> ConfigBox:
+    """reads yaml file and returns
 
     Args:
-        file_path (str): The path to the YAML file.
+        path_to_yaml (str): path like input
+
+    Raises:
+        ValueError: if yaml file is empty
+        e: empty file
 
     Returns:
-        dict: The contents of the YAML file as a Python dictionary.
+        ConfigBox: ConfigBox type
     """
     try:
-        with open(file_path, 'r') as file:
-            data = yaml.safe_load(file)
-            logger.info(f"yaml file : {file_path} loaded:")
-            return ConfigBox(data)
-    except FileNotFoundError:
-        print(f"Error: File not found - {file_path}")
-        return None
-    except yaml.YAMLError as exc:
-        print(f"Error: Invalid YAML file - {exc}")
-        return None
+        with open(path_to_yaml) as yaml_file:
+            content = yaml.safe_load(yaml_file)
+            logger.info(f"yaml file: {path_to_yaml} loaded successfully")
+            return ConfigBox(content)
     except BoxValueError:
-        raise ValueError("yaml file empty")
+        raise ValueError("yaml file is empty")
+    except Exception as e:
+        raise e
 
 @ensure_annotations
 def create_directories(path_to_directories:list,verbose=True):
