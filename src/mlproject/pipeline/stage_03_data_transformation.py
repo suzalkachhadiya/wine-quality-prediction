@@ -2,7 +2,7 @@ from mlproject.config.configuration import ConfigurationManager
 from mlproject.components.data_transformation import DataTransformation
 from pathlib import Path
 
-class   DataTransformationTrainingPipeline:
+class DataTransformationTrainingPipeline:
     def __init__(self):
         pass
 
