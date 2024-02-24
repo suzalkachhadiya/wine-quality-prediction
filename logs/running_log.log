@@ -74,3 +74,153 @@ x==========x]
 [2024-02-24 09:21:29,949: INFO:main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-02-24 12:51:48,682: INFO:main: ===>>> Data Ingestion stage started <<<===]
+[2024-02-24 12:51:48,682: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:51:48,697: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:51:48,697: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 12:51:48,697: INFO:common: createD Directory at:artifacts]
+[2024-02-24 12:51:48,697: INFO:common: createD Directory at:artifacts/data_ingestion]
+[2024-02-24 12:51:48,697: INFO:data_ingestion: File already exists of size: 22.7822265625 KB]
+[2024-02-24 12:51:48,697: INFO:main: ===>>> stage Data Ingestion stage completed <<<===
+
+x==========x]
+[2024-02-24 12:51:48,697: INFO:main: ===>>> Data Validation Stage started <<<===]
+[2024-02-24 12:51:48,713: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:51:48,713: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:51:48,713: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 12:51:48,713: INFO:common: createD Directory at:artifacts]
+[2024-02-24 12:51:48,713: INFO:common: createD Directory at:artifacts/data_validation]
+[2024-02-24 12:51:48,744: INFO:main: ===>>> Data Validation Stage completed <<<===
+
+x==========x]
+[2024-02-24 12:51:48,744: INFO:main: ===>>> Data Transformation Stage started <<<===]
+[2024-02-24 12:51:48,744: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:51:48,760: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:51:48,763: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 12:51:48,763: INFO:common: createD Directory at:artifacts]
+[2024-02-24 12:51:48,763: INFO:common: createD Directory at:artifacts/data_transformation]
+[2024-02-24 12:51:48,800: INFO:data_transformation: Splited data into training and test sets]
+[2024-02-24 12:51:48,800: INFO:data_transformation: (1199, 12)]
+[2024-02-24 12:51:48,800: INFO:data_transformation: (400, 12)]
+[2024-02-24 12:51:48,800: INFO:main: ===>>> Data Transformation Stage completed <<<===
+
+x==========x]
+[2024-02-24 12:51:48,800: INFO:main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-24 12:51:48,800: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:51:48,808: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:51:48,808: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 12:51:48,808: INFO:common: createD Directory at:artifacts]
+[2024-02-24 12:51:48,808: INFO:common: createD Directory at:artifacts/model_trainer]
+[2024-02-24 12:51:48,863: INFO:main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-02-24 12:51:48,863: INFO:main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-02-24 12:51:48,879: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:51:48,879: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:51:48,879: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 12:51:48,879: INFO:common: createD Directory at:artifacts]
+[2024-02-24 12:51:48,879: INFO:common: createD Directory at:artifacts/model_evaluation]
+[2024-02-24 12:51:48,910: INFO:common: Data has been saved to artifacts\model_evaluation\metrcis.json]
+[2024-02-24 12:51:48,910: INFO:main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 13:23:23,235: INFO:main: ===>>> Data Ingestion stage started <<<===]
+[2024-02-24 13:23:23,235: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:23:23,251: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:23:23,251: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:23:23,251: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:23:23,251: INFO:common: createD Directory at:artifacts/data_ingestion]
+[2024-02-24 13:23:23,251: INFO:data_ingestion: File already exists of size: 22.7822265625 KB]
+[2024-02-24 13:23:23,267: INFO:main: ===>>> stage Data Ingestion stage completed <<<===
+
+x==========x]
+[2024-02-24 13:23:23,267: INFO:main: ===>>> Data Validation Stage started <<<===]
+[2024-02-24 13:23:23,282: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:23:23,282: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:23:23,282: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:23:23,282: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:23:23,282: INFO:common: createD Directory at:artifacts/data_validation]
+[2024-02-24 13:23:23,299: INFO:main: ===>>> Data Validation Stage completed <<<===
+
+x==========x]
+[2024-02-24 13:23:23,299: INFO:main: ===>>> Data Transformation Stage started <<<===]
+[2024-02-24 13:23:23,299: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:23:23,299: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:23:23,307: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:23:23,308: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:23:23,308: INFO:common: createD Directory at:artifacts/data_transformation]
+[2024-02-24 13:23:23,324: INFO:data_transformation: Splited data into training and test sets]
+[2024-02-24 13:23:23,324: INFO:data_transformation: (1199, 12)]
+[2024-02-24 13:23:23,325: INFO:data_transformation: (400, 12)]
+[2024-02-24 13:23:23,326: INFO:main: ===>>> Data Transformation Stage completed <<<===
+
+x==========x]
+[2024-02-24 13:23:23,327: INFO:main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-24 13:23:23,329: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:23:23,330: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:23:23,332: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:23:23,332: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:23:23,333: INFO:common: createD Directory at:artifacts/model_trainer]
+[2024-02-24 13:23:23,372: INFO:main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-02-24 13:23:23,372: INFO:main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-02-24 13:23:23,372: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:23:23,388: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:23:23,388: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:23:23,388: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:23:23,388: INFO:common: createD Directory at:artifacts/model_evaluation]
+[2024-02-24 13:23:23,388: INFO:common: Data has been saved to artifacts\model_evaluation\metrcis.json]
+[2024-02-24 13:23:23,404: INFO:main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 13:56:04,206: INFO:main: ===>>> Data Ingestion stage started <<<===]
+[2024-02-24 13:56:04,209: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:56:04,210: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:56:04,212: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:56:04,213: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:56:04,213: INFO:common: createD Directory at:artifacts/data_ingestion]
+[2024-02-24 13:56:04,213: INFO:data_ingestion: File already exists of size: 22.7822265625 KB]
+[2024-02-24 13:56:04,215: INFO:main: ===>>> stage Data Ingestion stage completed <<<===
+
+x==========x]
+[2024-02-24 13:56:04,217: INFO:main: ===>>> Data Validation Stage started <<<===]
+[2024-02-24 13:56:04,220: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:56:04,222: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:56:04,223: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:56:04,224: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:56:04,225: INFO:common: createD Directory at:artifacts/data_validation]
+[2024-02-24 13:56:04,232: INFO:main: ===>>> Data Validation Stage completed <<<===
+
+x==========x]
+[2024-02-24 13:56:04,232: INFO:main: ===>>> Data Transformation Stage started <<<===]
+[2024-02-24 13:56:04,251: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:56:04,253: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:56:04,255: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:56:04,256: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:56:04,257: INFO:common: createD Directory at:artifacts/data_transformation]
+[2024-02-24 13:56:04,274: INFO:data_transformation: Splited data into training and test sets]
+[2024-02-24 13:56:04,274: INFO:data_transformation: (1199, 12)]
+[2024-02-24 13:56:04,275: INFO:data_transformation: (400, 12)]
+[2024-02-24 13:56:04,275: INFO:main: ===>>> Data Transformation Stage completed <<<===
+
+x==========x]
+[2024-02-24 13:56:04,276: INFO:main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-24 13:56:04,278: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:56:04,280: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:56:04,281: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:56:04,281: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:56:04,281: INFO:common: createD Directory at:artifacts/model_trainer]
+[2024-02-24 13:56:04,307: INFO:main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-02-24 13:56:04,307: INFO:main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-02-24 13:56:04,310: INFO:common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 13:56:04,311: INFO:common: yaml file: params.yaml loaded successfully]
+[2024-02-24 13:56:04,312: INFO:common: yaml file: schema.yaml loaded successfully]
+[2024-02-24 13:56:04,313: INFO:common: createD Directory at:artifacts]
+[2024-02-24 13:56:04,313: INFO:common: createD Directory at:artifacts/model_evaluation]
+[2024-02-24 13:56:04,316: INFO:common: Data has been saved to artifacts\model_evaluation\metrcis.json]
+[2024-02-24 13:56:04,316: INFO:main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
